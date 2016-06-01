@@ -7,13 +7,22 @@ html {
     padding: 0px;
 }
 
-.container {
+.row {
     width: 100%;    
+}
+
+section {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* phone */
 @media (max-width: 767px) {
-    .col-sm-12 { padding: 3px; float: left; }
+    .col-sm-12 {
+        float: left;
+        border: 1px black;
+    }
     
     .col-sm-12 { width: 100%;}
     
@@ -22,8 +31,8 @@ html {
 /* tablet */
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-6, col-md-12 {
-        padding: 5px;
         float: left;
+        border: 1px black;
     }
     
     .col-md-6 {
@@ -37,7 +46,10 @@ html {
 
 /* desktop */
 @media (min-width: 992px) {
-    .col-lg-4 { padding: 5px; float:left; }
+    .col-lg-4 {
+        float:left;
+        border: 1px black;
+    }
     
     .col-lg-4 {
         width: 33%;
