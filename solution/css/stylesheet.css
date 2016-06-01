@@ -13,15 +13,33 @@ html {
 
 /* phone */
 @media (max-width: 767px) {
+    .col-sm-12 { padding: 3px; float: left; }
+    
+    .col-sm-12 { width: 100%;}
     
 }
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, col-md-12 {
+        padding: 5px;
+        float: left;
+    }
     
+    .col-md-6 {
+        width: 50%;   
+    }
+    
+    .col-md-6 {
+        width: 100%;
+    }
 }
 
 /* desktop */
-@media (min-width: 992) {
+@media (min-width: 992px) {
+    .col-lg-4 { padding: 5px; float:left; }
     
+    .col-lg-4 {
+        width: 33%;
+    }
 }
