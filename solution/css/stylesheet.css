@@ -20,6 +20,13 @@ html {
 .title {
     position:relative;
     right: 0px;
+    top: 0px;
+    width: 30%;
+    border: 1px solid red;
+}
+
+section {
+    position: absolute;
     
 }
 
