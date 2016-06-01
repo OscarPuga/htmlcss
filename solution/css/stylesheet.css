@@ -17,6 +17,12 @@ html {
     margin-right: auto;
 }
 
+.title {
+    position:relative;
+    right: 0px;
+    
+}
+
 /* phone */
 @media (max-width: 767px) {
     .col-sm-12 {
