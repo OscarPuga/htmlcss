@@ -23,7 +23,9 @@
 
 .frame {
     position: relative;
-    
+    margin: 10px;
+    border: 1px solid red;
+    background: grey;
 }
 
 /* phone */
