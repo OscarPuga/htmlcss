@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+.top {
+    text-align: center;
+    margin: 40px;
+}
 
 .row {
     width: 100%;    
@@ -29,6 +33,19 @@
     border: 1px solid green;
     background: grey;
 }
+
+#one {
+    background: #d3d3d3;
+}
+
+#two {
+    background: #FAF0E6;
+}
+
+#three {
+    background: #FFFACD;
+}
+
 
 /* phone */
 @media (max-width: 767px) {
